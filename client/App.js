@@ -17,13 +17,10 @@ export default function App() {
     data.push({ yesOrNo: i, name: outputText.id, nameOfAns:InputText});
     console.log(data[data.length - 1]);  
   }
-
-  
-  
   return (
     <View style={styles.container}>
       <View style={styles.containerText}>
-      <Image style={styles.Image} source={{uri:outputText.url}}/>
+      <Image style={styles.Image} source={requi}/>
         <Text style={styles.text}>{outputText.name} </Text>
         <Text style={styles.text}>{outputText.age} </Text>
         <Text style={styles.text}>{outputText.hobbies} </Text>
