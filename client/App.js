@@ -20,7 +20,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.containerText}>
-      <Image style={styles.Image} source={requi}/>
+      <Image style={styles.Image} />
         <Text style={styles.text}>{outputText.name} </Text>
         <Text style={styles.text}>{outputText.age} </Text>
         <Text style={styles.text}>{outputText.hobbies} </Text>
