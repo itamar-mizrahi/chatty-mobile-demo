@@ -6,7 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>{outputText}</Text>
-      <Button title="like" onPress={()=> setOutputText('next')}/>
+      <Text>איתמר</Text>
+      <Button title="like" onPress={()=> setOutputText('hello')}/>
     </View>
     
   );
